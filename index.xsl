@@ -11,7 +11,7 @@
 
             <body>
                 <h3>
-                    <xsl:value-of select="/foaf:name"/>
+                    <xsl:value-of select="foaf:name"/>
                 </h3>
             </body>
         </html>
