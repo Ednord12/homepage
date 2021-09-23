@@ -13,26 +13,21 @@
                     <img class=" col-2" src="./img/img.png" alt="">
                     <div class="">
                         <form>
-                            <label>Civilité :
+                            <div>Civilité :
                                 <xsl:value-of select="foaf:title"/>
-                            </label>
-                            <br>
-                            <label>Nom :
+                            </div>
+                            <div>Nom :
                                 <xsl:value-of select="foaf:familyName"/>
-                            </label>
-                            <br>
-                            <label>Prenom :
+                            </div>
+                            <div>Prenom :
                                 <xsl:value-of select="foaf:givenName"/>
-                            </label>
-                            <br>
-                            <label>Homepage :
+                            </div>
+                            <div>Homepage :
                                 <xsl:value-of select="foaf:homepage   "/>
-                            </label>
-                            <br>
-                            <label>Nick :
+                            </div>
+                            <div>Nick :
                                 <xsl:value-of select="foaf:nick   "/>
-                            </label>
-                            <br>
+                            </div>
                         </form>
                     </div>
                 </div>
